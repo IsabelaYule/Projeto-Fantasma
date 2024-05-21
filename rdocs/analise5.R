@@ -43,5 +43,3 @@ ggplot(df) +
 QuadroAnalise5 <- setDT(df)[, as.list(c(summary(Engajamento),
                                         sd=sd(Engajamento))), by=Personagens]
 View(QuadroAnalise5)
-
-# Comentário ário
